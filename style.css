@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.tamaño{
+    height: 400px;
+    overflow: auto;
+}
+.tamaño::-webkit-scrollbar {
+	width: 7px;
+}
+
+.tamaño::-webkit-scrollbar-thumb {
+	background: #ff9d00;
+	border-radius: 5px;
+}
